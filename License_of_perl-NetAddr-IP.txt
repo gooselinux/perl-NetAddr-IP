@@ -1,0 +1,61 @@
+Subject: Re: License of perl-NetAddr-IP
+From: "Luis E." =?ISO-8859-1?Q?Mu=F1oz?= <lem@itverx.com.ve>
+To: "Tom \"spot\" Callaway" <tcallawa@redhat.com>
+Date: Thu, 07 Aug 2008 11:16:59 -0430
+
+On Thu, 2008-08-07 at 10:55 -0400, Tom "spot" Callaway wrote:
+> I've been trying to contact you over the last year without any luck.
+> Currently, Fedora is including NetAddr::IP, which is licensed under
+> the
+> Artistic 1.0 license. This license is no longer a permitted license in
+> Fedora.
+
+Hi Tom and thanks for getting in touch.
+
+Why do you say that the code is licensed under the 1.0 license?
+
+According to this excerpt (from
+http://search.cpan.org/src/LUISMUNOZ/NetAddr-IP-4.007/README )...
+
+# LICENSE AND WARRANTY
+# 
+# This software is (c) Luis E. Muñoz and Michael A. Robinton.  It can be
+# used under the terms of the perl artistic license provided that proper
+# credit for the work of the authors is  preserved in  the form  of this 
+# copyright  notice and license for this module.
+
+... there is no mention to a specific version number for the license.
+
+> [...] We have several other popular applications which depend on your
+> code, so
+> I am hopeful that you will be willing to relicense (either to Artistic
+> 2.0 or any other license of your choice on this list:
+> http://fedoraproject.org/wiki/Licensing#Good_Licenses ) or dual
+> license
+> (for example, the same license as perl, GPL+ or Artistic).
+
+I would be willing to relicense to Artistic 2.0 if need be. However, the
+code is rather stable at this time. I think it would not be a wise use
+of time to start tracking "upstream license version number" as well :-)
+
+Regards.
+
+-lem
+
+
+Subject: Re: License of perl-NetAddr-IP
+From: "Luis E." =?ISO-8859-1?Q?Mu=F1oz?= <lem@itverx.com.ve>
+To: "Tom \"spot\" Callaway" <tcallawa@redhat.com>
+Date: Thu, 07 Aug 2008 12:06:33 -0430
+
+On Thu, 2008-08-07 at 11:57 -0400, Tom "spot" Callaway wrote:
+> In the interim, will you give Fedora permission to distribute this
+> code
+> under Artistic 2.0?
+
+Of course. I'll tack a note to update the wording in the next release.
+
+Best regards.
+
+-lem
+
